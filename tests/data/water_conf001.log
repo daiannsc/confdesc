@@ -1,0 +1,50 @@
+ Entering Gaussian System, Link 0=g16
+ #P B3LYP/def2SVP Opt Freq Pop=NBO
+
+                          Input orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.120000
+      2          1           0        0.000000    0.760000   -0.480000
+      3          1           0        0.000000   -0.760000   -0.480000
+ ---------------------------------------------------------------------
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          8           0        0.000000    0.000000    0.117300
+      2          1           0        0.000000    0.757200   -0.469200
+      3          1           0        0.000000   -0.757200   -0.469200
+ ---------------------------------------------------------------------
+ SCF Done:  E(RB3LYP) =  -76.3500000000     A.U. after   10 cycles
+ Alpha  occ. eigenvalues --  -19.20000  -1.00000  -0.50000  -0.40000  -0.30000
+ Alpha virt. eigenvalues --    0.01000   0.08000   0.50000
+ SCF Done:  E(RB3LYP) =  -76.3600000000     A.U. after    8 cycles
+ Alpha  occ. eigenvalues --  -19.13000  -1.01000  -0.52000  -0.37000-123.29000
+ Alpha  occ. eigenvalues --   -0.29000
+ Alpha virt. eigenvalues --    0.02000   0.09000   0.51000
+ Mulliken charges:
+               1
+     1  O   -0.700000
+     2  H    0.350000
+     3  H    0.350000
+ Sum of Mulliken charges =   0.00000
+ Summary of Natural Population Analysis:
+
+                                       Natural Population
+                Natural  -----------------------------------------------
+    Atom  No    Charge         Core      Valence    Rydberg      Total
+ -----------------------------------------------------------------------
+      O    1   -0.91000      1.99982     6.90244    0.00897     8.91000
+      H    2    0.45500      0.00000     0.54235    0.00203     0.54500
+      H    3    0.45500      0.00000     0.54235    0.00203     0.54500
+ =======================================================================
+ Frequencies --   1640.0000              3800.0000              3900.0000
+ Sum of electronic and zero-point Energies=            -76.338000
+ Sum of electronic and thermal Energies=               -76.335000
+ Sum of electronic and thermal Enthalpies=             -76.334000
+ Sum of electronic and thermal Free Energies=          -76.356000
+ Normal termination of Gaussian 16 at Fri Oct 16 12:00:00 2026.

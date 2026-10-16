@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "confdesc"
+version = "0.1.0"
+description = "From conformer ensembles and Gaussian outputs to ML-ready descriptor tables"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "daiannsc" }]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+confdesc = "confdesc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
